@@ -1,0 +1,12 @@
+import * as Prisma from './internal/prismaNamespaceBrowser.js';
+export { Prisma };
+export * as $Enums from './enums.js';
+export * from './enums.js';
+export type User = Prisma.UserModel;
+export type OwnerProfile = Prisma.OwnerProfileModel;
+export type Venue = Prisma.VenueModel;
+export type Perk = Prisma.PerkModel;
+export type Submission = Prisma.SubmissionModel;
+export type UserVenuePoints = Prisma.UserVenuePointsModel;
+export type Redemption = Prisma.RedemptionModel;
+export type Notification = Prisma.NotificationModel;
